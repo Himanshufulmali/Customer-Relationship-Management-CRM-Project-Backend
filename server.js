@@ -56,8 +56,8 @@ const init = async() => {
 
 /// importing routes ///
 
-require("./routes/authRoutes")(app);
-require("./routes/userRoutes")(app);
+require("./routes/authRoute")(app);
+require("./routes/userRoute")(app);
 
 
 /// starting server ///
